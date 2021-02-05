@@ -34,4 +34,4 @@ client.on('message', async message =>{
     if(command) command.run(client, message, args) 
 })
 //Logging in to discord
-client.login(`Nzk0MTM0ODY3MDg3OTgyNjAy.X-2Zug.E20m5UXlDT_fFhngKufLJUF4qX4`);
+client.login(`Nzk0MTM0ODY3MDg3OTgyNjAy.X-2Zug.jYR4qZrwc9Y6LUKwiyfWTQg5apk`);
