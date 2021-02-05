@@ -1,11 +1,4 @@
-// const express = require('express')
-// const app = express()
-// app.get("/", (req, res) =>{
-//     res.send("Hello World!")
-// })
-// app.listen(5000, () =>{
-//     console.log(`${client.user.username} Tavasot MRJOKER Online Shod`)
-// })
+
 //#consts
 const Discord = require(`discord.js`)
 const client = new Discord.Client();
@@ -34,4 +27,4 @@ client.on('message', async message =>{
     if(command) command.run(client, message, args) 
 })
 //Logging in to discord
-client.login(`Nzk0MTM0ODY3MDg3OTgyNjAy.X-2Zug.jYR4qZrwc9Y6LUKwiyfWTQg5apk`);
+client.login(process.env.token);
