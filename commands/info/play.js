@@ -1,6 +1,5 @@
 const ytdl = require(`ytdl-core`);
 const ytSearch = require(`yt-search`);
-const ffmpeg = require(`ffmpeg-static`)
 module.exports = {
     name: `play`,
     description: "you tube website adress",
