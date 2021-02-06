@@ -13,9 +13,9 @@ module.exports = {
     run : async(client, message, args) => {
         const msg = await message.channel.send(`🏓 Pinging...`)
         const embed = new MessageEmbed()
-            .setTitle('🏓Pong!')
+            .setTitle('🏓Pong')
             .setColor(`RANDOM`)
-            .setDescription(`Ping Shoma ${client.ws.ping}MS\nPing Bot ${Math.floor(msg.createdAt - message.createdAt)}MS!`)
+            .setDescription(`your ping ${client.ws.ping} ms\nPing Bot ${Math.floor(msg.createdAt - message.createdAt)} ms`)
             await message.channel.send(embed)
             msg.delete()
 
