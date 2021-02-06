@@ -8,8 +8,8 @@ module.exports = {
         const invite = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle(`Invite`)
-        .setAuthor(`Ba Link Zir Mitonid Man Ro Be Server Khodeton Add Bezanid`)
-        .setURL(`https://discord.com/oauth2/authorize?client_id=794134867087982602&scope=bot&permissions=271613040`)
+        .setAuthor(`you can invite me to your server`)
+        .setURL(`https://discord.com/api/oauth2/authorize?client_id=807267944660467737&permissions=0&scope=bot`)
         .setTimestamp()
         message.channel.send(invite);
     }
