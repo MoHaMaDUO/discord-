@@ -2,7 +2,7 @@
 //#consts
 const Discord = require(`discord.js`)
 const client = new Discord.Client();
-const prefix = ``
+const prefix = `$`
 const fs = require(`fs`);
 const memberCounter = require(`./events/member-counter`)
 module.exports = client;
