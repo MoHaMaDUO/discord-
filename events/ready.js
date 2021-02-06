@@ -16,7 +16,6 @@ client.on(`ready`, () =>{
         `${client.guilds.cache.size} Servers`,
         `$Help`,
         `welcome to quarex`
-        `i hope you enjoy`
     ]
     let index = 0;
     setInterval(() => {
@@ -24,7 +23,7 @@ client.on(`ready`, () =>{
         const status = arrayOfStatus[index];
         memberCounter(client)
         client.user.setActivity(status , {
-            type: "WATCHING"
+            type: "PLAYING"
         })
         index++;
     }, 5000)
