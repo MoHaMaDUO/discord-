@@ -3,7 +3,7 @@ module.exports = {
     description: "This command kicks a member!",
     run : async(client, message, args) => {
         const target = message.mentions.users.first();
-        if(!message.member.hasPermission("KICK_MEMBERS")) return message.channel.send(`:false: Permission Nadari`)
+        if(!message.member.hasPermission("KICK_MEMBERS")) return message.channel.send(":false: Permission Nadari")
         if(target){
             const memberTarget = message.guild.members.cache.get(target.id);
             memberTarget.kick();
