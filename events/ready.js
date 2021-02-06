@@ -10,7 +10,7 @@ const memberCounter = require(`./member-counter`)
 //     })
 // })  
 client.on(`ready`, () =>{
-    console.log(`${client.user.username} Tavasot MRJOKER Online Shod`)
+    console.log(`${client.user.username} Tavasot MoHaMaD Online Shod`)
     memberCounter(client)
     const arrayOfStatus = [
         `${client.guilds.cache.size} Servers`,
