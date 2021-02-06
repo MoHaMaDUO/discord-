@@ -11,6 +11,7 @@ const memberCounter = require(`./member-counter`)
 // })  
 client.on(`ready`, () =>{
     console.log(`${client.user.username} Tavasot MRJOKER Online Shod`)
+    memberCounter(client)
     const arrayOfStatus = [
         `${client.guilds.cache.size} Servers`,
         `Help`,
