@@ -14,8 +14,9 @@ client.on(`ready`, () =>{
     memberCounter(client)
     const arrayOfStatus = [
         `${client.guilds.cache.size} Servers`,
-        `Help`,
-        `Use Invite To Add Me`
+        `$Help`,
+        `welcome to quarex`
+        `i hope you enjoy`
     ]
     let index = 0;
     setInterval(() => {
