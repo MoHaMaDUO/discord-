@@ -7,8 +7,8 @@ client.on(`guildMemberAdd`, guildMember =>{
         .setAuthor(`${guildMember.user.username}`, `${guildMember.user.displayAvatarURL({format: "gif", dynamic: true, size: 1024})}`)
         .setAuthor(`${guildMember.user.username}`, `${guildMember.user.displayAvatarURL({format: "png", dynamic: true, size: 1024})}`)
         .setThumbnail(`${guildMember.user.displayAvatarURL({format: "png", dynamic: true, size: 1024})}`)
-        .setDescription(`Salam <@${guildMember.user.id}> Khosh Omadi Be Server Ma Omidvaram Lahazat Khoobi Dashte Bashim Kenar Ham`)
+        .setDescription(`Hello <@${guildMember.user.id}> Welcome To Quarex Server I Hope You enjoy`)
         .setTimestamp()
-// guildMember.guild.channels.cache.get(`798986536455897088`).send(`Salam <@${guildMember.user.id}> Khosh Omadi Be Server Ma Omidvaram Lahazat Khoobi Dashte Bashim Kenar Ham`)
-    guildMember.guild.channels.cache.get(`798986536455897088`).send(welcomer)
+// guildMember.guild.channels.cache.get(`798986536455897088`).send(`Hello <@${guildMember.user.id}> Khosh Omadi Be Server Ma Omidvaram Lahazat Khoobi Dashte Bashim Kenar Ham`)
+    guildMember.guild.channels.cache.get(`804602176102072341`).send(welcomer)
 });
