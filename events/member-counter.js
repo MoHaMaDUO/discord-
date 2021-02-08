@@ -12,6 +12,6 @@ module.exports = async (client) =>{
     setInterval(() =>{
         const memberCount = guild.memberCount;
         const channel = guild.channels.cache.get(`805012266247258123`)
-        channel.setName(`【👥】bot : ${client.count.toLocaleString()}`)
+        channel.setName(`【👥】bot : ${clientcount.toLocaleString()}`)
     }, 5000)
 }
