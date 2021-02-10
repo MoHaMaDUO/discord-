@@ -1,9 +1,9 @@
 const { MessageEmbed } = require("discord.js");
 const { readdirSync } = require("fs");
-const prefix = ``
+const prefix = `$`
 
 module.exports = {
-  name: "$help",
+  name: "help",
   aliases : ['h'],
   description: "Shows all available bot commands.",
   run: async (client, message, args) => {
