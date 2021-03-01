@@ -2,7 +2,7 @@ const { Client } = require("discord.js");
 const Discord = require("discord.js");
 
 module.exports = {
-    name: `$avatarserver`,
+    name: `avatarserver`,
     description: "Namayesh Avatar Server",
     run : async(client, message, args)=>{
         const avatarserverEmbed = new Discord.MessageEmbed()
